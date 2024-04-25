@@ -1,0 +1,29 @@
+.computing_wrapper{
+    width: 100%;
+    /* height: 100px; */
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 1px 8px 4px rgba(34, 60, 80, 0.2);
+    padding: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.computing_span{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    display: flex;
+    gap: 10px;
+}
+
+.computing_span button{
+    width: 100%;
+    height: 100%;
+    border: 3px solid rgba(130, 131, 131, 0.359);
+    border-radius: 5px;
+}
+
+.activeBtn{
+    background-color: rgb(93,95,239);
+}
